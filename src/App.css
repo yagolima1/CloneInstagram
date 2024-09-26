@@ -1,0 +1,23 @@
+.ConteudoLateral {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.menulateral {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.menuLateral li {
+    margin-bottom: 10px;
+}
