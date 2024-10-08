@@ -1,36 +1,28 @@
-import logo from '../imagens/Logo.png';
+import logo from '../imagens/logo.webp';
 import ListItem from './ListItem';
-import { FaHouse } from "react-icons/fa6";
-import { FaMagnifyingGlass } from "react-icons/fa6";
-import { FcSettings } from "react-icons/fc";
-import { FaHeart } from "react-icons/fa";
-import { IoChatbox } from "react-icons/io5";
-import { CgProfile } from "react-icons/cg";
-import { TbBrandSafari } from "react-icons/tb";
 
-
+import { HiAnnotation } from "react-icons/hi";
+import { FaHouseChimneyMedical } from "react-icons/fa6";
 
 export default function ConteudoLateral() {
   return (
     <div className='ConteudoLateral'>
-      <img src={logo} className='logo' alt="logo" />
-
+      <img src={logo} className='logo' alt='Logo' />
 
       <div>
-        <ul className='menulateral'>
-
-        <ListItem texto='Home' icone= {<FaHouse/>}/>
-        <ListItem texto='Pesquisa' icone={<FaMagnifyingGlass />}/>
-        <ListItem texto='Explorer' icone={<TbBrandSafari />}/>
-        <ListItem texto='Mensagens' icone={<IoChatbox />}/>
-        <ListItem texto='Notificacaçao' icone={<FaHeart />}/>
-        <ListItem texto='Perfil' icone={<CgProfile />}/>
-        <ListItem texto='Mais' icone={<FcSettings />}/>
-      
+        <ul className='menuLateral'>
+          <ListItem texto='Home' icone={
+            <FaHouseChimneyMedical style={{color:"red", fontSize:"40px", margin:"8px"}} />
+          } 
+          />
+          <ListItem texto="Pesquisa" icone="Lupa"/>
+          <ListItem icone="Buss" texto="Explorar"/>
+          <ListItem texto="Mensagens" icone={<HiAnnotation />} />
+          <ListItem icone="Coração" texto="Notificações" />
+          <ListItem texto="Perfil" icone="Perfil"/>
+          <ListItem texto="Mais" icone="Mais"/>
         </ul>
-
       </div>
-
     </div>
-  )
+  );
 }
