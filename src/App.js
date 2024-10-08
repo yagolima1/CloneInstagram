@@ -1,27 +1,20 @@
 import ConteudoLateral from './componentes/ConteudoLateral';
+import ConteudoPrincipal from './componentes/ConteudoPrincipal';
 
-// importado arquivo de estilos para esse componente
+// Importando o arquivo de estilos para esse componente
 import './App.css';
 
-// função que retorna o componente app
-// essa função é exportada para ser usada em  outros arquivos
+// Função que retorna o componente App. 
+// Essa função é exportada para ser usada em outros arquivos
+	
 export default function App() {
-
-  // o componente app retorna um JSX que é renderizado na tela
+  // O componente App retorna um JSX que é renderizado na tela
   return (
-
     <div className="App">
-
-
-    <ConteudoLateral/>
-    
-      
-
-      <div className='ConteudoPrincipal'>
-        Conteúdo Principal
-      </div>
-
-
+      <ConteudoLateral />
+      <ConteudoPrincipal />
     </div>
   );
 }
+
+// export default App;
