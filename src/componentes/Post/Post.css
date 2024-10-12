@@ -1,0 +1,93 @@
+.header-post { /* Estilo para o cabeçalho do post */
+    display: flex; /* Usa o modelo de caixa flexível */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    padding: 10px 15px; /* Adiciona preenchimento interno */
+    background-color: #1d1b1b; /* Define a cor de fundo */
+}
+
+.header-post .imagem-post { /* Estilo para a imagem do usuário no cabeçalho */
+    width: 40px; /* Largura da imagem */
+    height: 40px; /* Altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+}
+
+.usuario { /* Estilo para o contêiner de informações do usuário */
+    display: flex; /* Usa o modelo de caixa flexível */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    gap: 16px; /* Adiciona espaço entre os itens */
+}
+
+.usuario p { /* Estilo para o parágrafo dentro do contêiner do usuário */
+    padding-top: 15px; /* Adiciona preenchimento superior */
+}
+
+.foto-post { /* Estilo para o contêiner da foto do post */
+    width: 100%; /* Largura total */
+    object-fit: cover; /* Faz a imagem cobrir completamente o espaço disponível */
+}
+
+.descricao-post { /* Estilo para a descrição do post */
+    padding: 10px 15px; /* Adiciona preenchimento interno */
+}
+
+.postagem-desc { /* Estilo para a seção de ícones de postagem */
+    display: flex; /* Usa o modelo de caixa flexível */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+}
+
+.descricao-post .icones { /* Estilo para a seção de ícones na descrição */
+    display: flex; /* Usa o modelo de caixa flexível */
+    gap: 16px; /* Adiciona espaço entre os ícones */
+}
+
+.icone { /* Estilo para cada ícone */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    color: white; /* Define a cor do ícone */
+}
+
+.like { /* Estilo para a seção de curtidas */
+    margin-top: 6px; /* Adiciona margem superior */
+}
+
+.like span { /* Estilo para o texto de curtidas */
+    font-size: 15px; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+}
+
+.legenda { /* Estilo para a legenda do post */
+    margin: 6px 0 3px; /* Define margens superior, inferior e lateral */
+}
+
+.legenda p strong { /* Estilo para o texto em negrito dentro da legenda */
+    font-weight: 500px; /* Peso da fonte */
+}
+
+.tempo-post time { /* Estilo para o tempo do post */
+    font-size: 11px; /* Tamanho da fonte */
+    color: #8e8e8e; /* Cor do texto */
+}
+
+.comentar { /* Estilo para o contêiner de comentários */
+    border-top: 1px solid var(--border-secondary); /* Adiciona borda superior */
+    margin-top: 8px; /* Adiciona margem superior */
+    display: flex; /* Usa o modelo de caixa flexível */
+}
+
+.comentar-fake { /* Estilo para o campo de comentário simulado */
+    padding: 15px 0; /* Adiciona preenchimento vertical */
+    display: flex; /* Usa o modelo de caixa flexível */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    flex: 1; /* Faz o campo de comentário ocupar espaço disponível */
+    gap: 16px; /* Adiciona espaço entre os itens */
+}
+
+.comentar-fake input { /* Estilo para o campo de entrada de comentário */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.comentar button { /* Estilo para o botão de envio de comentário */
+    color: var(--quartary); /* Define a cor do botão */
+    font-weight: 500; /* Peso da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}

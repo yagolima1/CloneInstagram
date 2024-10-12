@@ -1,5 +1,5 @@
-import ConteudoLateral from './componentes/ConteudoLateral';
-import ConteudoPrincipal from './componentes/ConteudoPrincipal';
+import { Header } from  './componentes/Header';
+import ConteudoPrincipal from './componentes/Conteudo Principal/ConteudoPrincipal';
 
 // Importando o arquivo de estilos para esse componente
 import './App.css';
@@ -11,8 +11,8 @@ export default function App() {
   // O componente App retorna um JSX que é renderizado na tela
   return (
     <div className="App">
-      <ConteudoLateral />
-      <ConteudoPrincipal />
+      <Header />
+      <ConteudoPrincipal/>
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.MainGrid {
+    display: grid; /* Define um grid layout */
+    grid-template-areas: "firstColumn secondColumn"; /* Define as áreas do grid */
+    grid-template-columns: 614px 293px; /* Define a largura das colunas */
+    grid-gap: 35px; /* Espaço entre os itens do grid */
+    max-width: 957px; /* Largura máxima do grid */
+    margin: 80px auto; /* Margem superior de 80px e centraliza horizontalmente */
+}
+
+.box {
+    background: var(--background); /* Fundo da caixa utilizando uma variável de CSS */
+    border: 1px solid var(--border); /* Borda da caixa utilizando uma variável de CSS */
+}
+
+.suggestionBox {
+    flex: 1; /* Expande para ocupar espaço disponível (embora não seja necessário com grid) */
+    position: fixed; /* Fixa a caixa de sugestões na tela */
+    max-width: 293px; /* Largura máxima da caixa de sugestões */
+}

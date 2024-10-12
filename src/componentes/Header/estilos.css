@@ -1,0 +1,61 @@
+.header {
+    background: var(--background); /* Define a cor de fundo do cabeçalho */
+    border-bottom: 1px solid var(--border); /* Adiciona uma borda inferior ao cabeçalho */
+    position: fixed; /* Mantém o cabeçalho fixo no topo da página */
+    top: 0; /* Alinha o cabeçalho ao topo da página */
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura da página */
+}
+
+.header .container {
+    display: flex; /* Usa flexbox para layout do container */
+    align-items: center; /* Centraliza verticalmente os itens no container */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    height: 60px; /* Altura do cabeçalho */
+    max-width: 957px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    width: 90%; /* Define a largura do container como 90% */
+}
+
+.header .container .logo {
+    width: 110px; /* Largura da logo */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.input-fake {
+    background: var(--background-main); /* Cor de fundo para o campo de entrada */
+    border-radius: 3px; /* Bordas arredondadas */
+    padding: 3px 10px; /* Espaçamento interno */
+    border: 1px solid var(--border); /* Borda do campo de entrada */
+    display: flex; /* Usa flexbox para layout do campo de entrada */
+    align-items: center; /* Centraliza verticalmente os itens no campo de entrada */
+}
+
+.input-fake input {
+    font-size: 14px; /* Tamanho da fonte do campo de entrada */
+    padding: 0 7px; /* Espaçamento interno horizontal */
+}
+
+.menu-icons {
+    display: flex; /* Usa flexbox para layout do menu de ícones */
+    align-items: center; /* Centraliza verticalmente os ícones */
+    gap: 16px; /* Espaçamento entre os ícones */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.menu-icons div:hover {
+    color: white; /* Muda a cor para branco ao passar o mouse */
+    transition: all 0.6s; /* Efeito de transição suave para a mudança de cor */
+    transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+
+.menu-icons .img-user {
+    width: 26px; /* Largura da imagem do usuário */
+    height: 26px; /* Altura da imagem do usuário */
+    border-radius: 100%; /* Torna a imagem do usuário circular */
+}
+
+.menu-icons .img-user:hover {
+    color: white; /* Muda a cor para branco ao passar o mouse */
+    transition: all 0.3s; /* Efeito de transição suave para a mudança de cor */
+    transform: scale(1.3); /* Aumenta o tamanho da imagem do usuário ao passar o mouse */
+}

@@ -1,0 +1,68 @@
+/* Estilização do contêiner principal que contém os elementos de história */
+.container {
+    display: flex; /* Utiliza flexbox para disposição dos filhos em linha */
+    gap: 16px; /* Espaçamento entre os elementos filhos */
+    padding: 15px; /* Espaçamento interno do contêiner */
+}
+
+/* Estilização para elementos que podem ser clicados */
+.story-elements {
+    cursor: pointer; /* Muda o cursor para indicar que o elemento é clicável */
+}
+
+/* Estilização para usuários com o estilo normal (sem close) */
+.elementos-usuario div {
+    width: 60px; /* Largura do círculo */
+    height: 60px; /* Altura do círculo */
+    border-radius: 50%; /* Torna os cantos redondos, criando um círculo */
+    display: flex; /* Utiliza flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    background: linear-gradient(#c82d8e, #f99d4c); /* Gradiente de fundo */
+}
+
+/* Estilização para usuários com a classe close */
+.elementos-usuario-close div {
+    width: 60px; /* Largura do círculo */
+    height: 60px; /* Altura do círculo */
+    border-radius: 50%; /* Torna os cantos redondos */
+    display: flex; /* Utiliza flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    background: linear-gradient(#1DB954, #1DB954); /* Gradiente de fundo verde */
+}
+
+/* Estilização para a imagem do usuário */
+.imagem-usuario {
+    border: 2px solid var(--background); /* Borda em torno da imagem */
+    width: 56px; /* Largura da imagem */
+    height: 56px; /* Altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+}
+
+/* Estilização para o texto de usuários com classe close */
+.elementos-usuario-close span {
+    font-size: 13px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que o texto é clicável */
+}
+
+/* Estilização para o texto de usuários sem classe close */
+.elementos-usuario span {
+    font-size: 13px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que o texto é clicável */
+}
+
+/* Efeito de hover para elementos de usuário com a classe close */
+.elementos-usuario-close:hover {
+    color: white; /* Muda a cor do texto ao passar o mouse */
+    transition: all 0.3s; /* Animação suave para a transição */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
+}
+
+/* Efeito de hover para elementos de usuário sem a classe close */
+.elementos-usuario:hover {
+    cursor: pointer; /* Mantém o cursor como pointer */
+    color: white; /* Muda a cor do texto ao passar o mouse */
+    transition: all 0.3s; /* Animação suave para a transição */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
+}

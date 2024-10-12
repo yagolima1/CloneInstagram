@@ -1,0 +1,129 @@
+.container-suggestion {
+    margin-top: 18px; /* Define a margem superior do contêiner de sugestões */
+}
+
+.header-suggestion {
+    display: flex; /* Utiliza flexbox para organizar os itens dentro do cabeçalho */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 20px; /* Define o espaço entre os itens */
+}
+
+.header-suggestion img {
+    height: 56px; /* Define a altura da imagem */
+    width: 56px; /* Define a largura da imagem */
+    border-radius: 100%; /* Torna a imagem circular */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre a imagem */
+}
+
+.user-infos-suggestion {
+    display: flex; /* Utiliza flexbox para organizar as informações do usuário */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Espalha os itens ao longo da linha */
+    flex: 1; /* Permite que o contêiner ocupe o espaço restante */
+}
+
+.user-infos-suggestion .infos span {
+    font-size: 15px; /* Define o tamanho da fonte do nome de usuário */
+    font-weight: 600; /* Define o peso da fonte como negrito */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o texto */
+}
+
+.user-infos-suggestion .infos p {
+    font-size: 13px; /* Define o tamanho da fonte do nome completo */
+    color: var(--secondary); /* Define a cor da fonte com uma variável CSS */
+}
+
+.user-infos-suggestion .switch {
+    font-weight: 500; /* Define o peso da fonte do botão como médio */
+    color: var(--quartary); /* Define a cor do botão com uma variável CSS */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o botão */
+}
+
+.user-infos-suggestion button:hover {
+    color: white; /* Muda a cor do texto para branco ao passar o mouse */
+    transition: all 0.3s; /* Adiciona uma transição suave para todas as propriedades */
+    transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
+}
+
+.header-main-suggestion {
+    display: flex; /* Utiliza flexbox para organizar os itens no cabeçalho principal */
+    justify-content: space-between; /* Espalha os itens ao longo da linha */
+    margin: 20px 0 10px 0; /* Define as margens superior e inferior do cabeçalho principal */
+}
+
+.header-main-suggestion p {
+    font-size: 15px; /* Define o tamanho da fonte do título */
+    color: var(--secondary); /* Define a cor do texto com uma variável CSS */
+    font-weight: 500; /* Define o peso da fonte como médio */
+}
+
+.header-main-suggestion span {
+    font-size: 13px; /* Define o tamanho da fonte do link "Ver tudo" */
+    font-weight: 500; /* Define o peso da fonte como médio */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o texto */
+}
+
+.header-main-suggestion :hover {
+    color: white; /* Muda a cor do texto para branco ao passar o mouse */
+    transition: all 0.3s; /* Adiciona uma transição suave para todas as propriedades */
+    transform: scale(1.1); /* Aumenta o tamanho do texto ao passar o mouse */
+}
+
+.user-suggestion {
+    margin-top: 5px; /* Define a margem superior do contêiner de sugestões de usuários */
+}
+
+.infos-suggestion {
+    margin: 15px 0 0 5px; /* Define margens para o contêiner de informações da sugestão */
+    display: flex; /* Utiliza flexbox para organizar os itens */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 16px; /* Define o espaço entre os itens */
+}
+
+.infos-suggestion img {
+    width: 36px; /* Define a largura da imagem de perfil do usuário sugerido */
+    height: 36px; /* Define a altura da imagem de perfil do usuário sugerido */
+    border-radius: 100%; /* Torna a imagem circular */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre a imagem */
+}
+
+.info-suggestion {
+    flex: 1; /* Permite que o contêiner ocupe o espaço restante */
+}
+
+.info-suggestion span {
+    font-size: 15px; /* Define o tamanho da fonte do nome de usuário sugerido */
+    font-weight: 600; /* Define o peso da fonte como negrito */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o texto */
+}
+
+.info-suggestion p {
+    font-size: 13px; /* Define o tamanho da fonte da descrição da sugestão */
+    color: var(--secondary); /* Define a cor da fonte com uma variável CSS */
+    margin-top: 3px; /* Define a margem superior do texto */
+}
+
+.infos-suggestion .follow {
+    font-size: 12px; /* Define o tamanho da fonte do botão "Seguir" */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o botão */
+    color: var(--quartary); /* Define a cor do botão com uma variável CSS */
+    font-weight: 500; /* Define o peso da fonte como médio */
+}
+
+.infos-suggestion button:hover {
+    color: white; /* Muda a cor do texto para branco ao passar o mouse */
+    transition: all 0.3s; /* Adiciona uma transição suave para todas as propriedades */
+    transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
+}
+
+.footer-suggestion {
+    margin-top: 25px; /* Define a margem superior do rodapé */
+    flex: 1; /* Permite que o rodapé ocupe o espaço restante */
+}
+
+.footer-suggestion p {
+    font-size: 12px; /* Define o tamanho da fonte do texto no rodapé */
+    color: var(--tertiary); /* Define a cor da fonte com uma variável CSS */
+    margin-bottom: 15px; /* Define a margem inferior do texto no rodapé */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o texto */
+}

@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9ebacb6.css",
-    "main.js": "/static/js/main.9f6fca17.js",
-    "static/media/barbudo.jpg": "/static/media/barbudo.c1fb1142a65f912be542.jpg",
-    "static/media/logo.webp": "/static/media/logo.a740b2dccfb6bf48590c.webp",
+    "main.css": "/static/css/main.11ef1c0c.css",
+    "main.js": "/static/js/main.e5ab8a22.js",
     "index.html": "/index.html",
-    "main.c9ebacb6.css.map": "/static/css/main.c9ebacb6.css.map",
-    "main.9f6fca17.js.map": "/static/js/main.9f6fca17.js.map"
+    "main.11ef1c0c.css.map": "/static/css/main.11ef1c0c.css.map",
+    "main.e5ab8a22.js.map": "/static/js/main.e5ab8a22.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9ebacb6.css",
-    "static/js/main.9f6fca17.js"
+    "static/css/main.11ef1c0c.css",
+    "static/js/main.e5ab8a22.js"
   ]
 }
