@@ -1,5 +1,4 @@
-<div> <img src="/src/imagens/MockUp.png" alt="Mockup do clone do instagram">
-</div>
+<div> <img src="/src/imagens/MockUp.png" alt="Mockup do clone do instagram"> </div>
 
 # Instagrão: o espelho de Ojesed
 
@@ -29,14 +28,6 @@ O Instagram é uma rede social que preza pela simplicidade; no entanto, seu layo
 - React
 - CSS
 - JavaScript
-
-## Prints do Projeto
-
-*Adicione aqui alguns prints da sua aplicação para ilustrar o resultado final.*
-
-## Link do Repositório
-
-*Adicione o link para o seu repositório do GitHub aqui.*
 
 ## Autor
 
