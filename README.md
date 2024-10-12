@@ -32,3 +32,7 @@ O Instagram é uma rede social que preza pela simplicidade; no entanto, seu layo
 ## Autor
 
 Este projeto foi desenvolvido como parte dos exercícios de prática em React, proposto pelo Professor Gabriel.
+
+### Link do Site
+
+https://clone-instagram-mu.vercel.app/
